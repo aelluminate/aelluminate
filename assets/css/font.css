@@ -1,0 +1,29 @@
+@font-face {
+  font-family: 'Writer';
+  src: url('../fonts/writer/writer-light.woff2') format('woff2');
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Writer';
+  src: url('../fonts/writer/writer-regular.woff2') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Writer';
+  src: url('../fonts/writer/writer-bold.woff2') format('woff2');
+  font-weight: 700;
+  font-style: normal;
+}
+
+
+
+@font-face {
+  font-family: 'Writer';
+  src: url('../fonts/writer/writer-black.woff2') format('woff2');
+  font-weight: 900;
+  font-style: normal;
+}
