@@ -23,7 +23,7 @@ export const metadata: Metadata = {
     type: "website",
     images: [
       {
-        url: "https://aelluminate.com/og.png",
+        url: "/og.png",
         width: 1920,
         height: 1080,
         alt: "Aelluminate Open Graph Image",
@@ -50,7 +50,7 @@ export const metadata: Metadata = {
     description: siteDescription,
     images: [
       {
-        url: "https://aelluminate.com/og.png",
+        url: "/og.png",
         width: 1920,
         height: 1080,
         alt: "Aelluminate Open Graph Image",
