@@ -1,0 +1,17 @@
+[
+  {
+    "firstName": "Francis",
+    "lastName": "Ignacio",
+    "image": "/team/francis.jpeg"
+  },
+  {
+    "firstName": "Haidy",
+    "lastName": "Canilao",
+    "image": "/team/haidy.jpeg"
+  },
+  {
+    "firstName": "Paulomer",
+    "lastName": "Dizon",
+    "image": "/team/paulo.jpeg"
+  }
+]

@@ -1,0 +1,26 @@
+[
+  {
+    "name": "Payment processing error",
+    "description": "Failed to process payment for Order #12345",
+    "time": "15m ago",
+    "icon": "x-circle"
+  },
+  {
+    "name": "User registration error",
+    "description": "Error occurred during user registration",
+    "time": "10m ago",
+    "icon": "alert-triangle"
+  },
+  {
+    "name": "Message delivery failed",
+    "description": "Failed to deliver message to user.",
+    "time": "5m ago",
+    "icon": "x-octagon"
+  },
+  {
+    "name": "Event creation error",
+    "description": "Error while creating event 'Annual Meeting'",
+    "time": "2m ago",
+    "icon": "alert-circle"
+  }
+]
