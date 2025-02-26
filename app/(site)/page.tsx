@@ -6,9 +6,10 @@ import {
   Button,
   TextFalling,
 } from "@/components/shared"
-import { ListNotifications } from "@/components/ui/list-notifications"
+import { NotificationList } from "@/components/ui/notification-list"
 import { ReviewCard } from "@/components/ui/reviews"
 import { BentoBox } from "@/components/ui/bento-box"
+import { TeamAvatars } from "@/components/ui/team-avatars"
 
 const reviews = [
   {
@@ -40,7 +41,7 @@ export default function Home() {
             ifs&quot; into &quot;here it is!&quot;
           </span>
         </div>
-        <ListNotifications />
+        <NotificationList />
       </div>
       <div className="relative h-fit w-full overflow-hidden border border-x border-b border-tertiary/10">
         <Marquee pauseOnHover className="[--duration:20s]" repeat={5}>
@@ -121,11 +122,12 @@ export default function Home() {
           <div className="flex flex-col items-center justify-center gap-2 text-center">
             <h2 className="font-lora text-4xl">Join us</h2>
             <span className="text-tertiary/75">
-              We&apos;re always wanted you to be part of our team. Let&apos;s build extraordinary
-              solutions, together.
+              We always wanted you to be part of our team. Let&apos;s build extraordinary solutions,
+              together.
             </span>
-            <Button size="lg" variant="outline" className="mt-4">
-              Apply now
+            <TeamAvatars className="mt-2" />
+            <Button size="lg" variant="outline" className="mt-4 cursor-not-allowed">
+              Hiring soon
             </Button>
           </div>
         </div>
