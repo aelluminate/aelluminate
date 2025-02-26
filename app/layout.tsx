@@ -7,6 +7,7 @@ import { metadata as SiteData } from "@/lib/metadata"
 export const metadata: Metadata = SiteData
 
 import { NavHeader } from "@/components/features/nav-header"
+import { Footer } from "@/components/ui/footer"
 
 export default function RootLayout({
   children,
@@ -20,6 +21,7 @@ export default function RootLayout({
         <div className="flex justify-center">
           <div className="w-full max-w-6xl">{children}</div>
         </div>
+        <Footer />
       </body>
     </html>
   )
