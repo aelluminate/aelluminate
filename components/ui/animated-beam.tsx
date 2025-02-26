@@ -25,7 +25,7 @@ const Circle = forwardRef<HTMLDivElement, { className?: string; children?: React
 
 Circle.displayName = "Circle"
 
-export function AnimatedBeamDemo() {
+export function AnimatedBeam() {
   const containerRef = useRef<HTMLDivElement>(null)
   const div1Ref = useRef<HTMLDivElement>(null)
   const div2Ref = useRef<HTMLDivElement>(null)

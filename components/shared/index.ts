@@ -16,18 +16,35 @@ export { NavMenuListItem } from "./nav-menu/nav-menu-list-item"
 export { Button } from "./button/button"
 export { ButtonInteractiveHover } from "./button/button-interactive-hover"
 /**
+ * Calendar
+ */
+export { Calendar } from "./calendar/calendar"
+/**
  * Texts
  */
 export { TextAnimatedGradient } from "./text/text-animated-gradient"
+export { TextNumberTicker } from "./text/text-number-ticker"
+export { TextAurora } from "./text/text-aurora"
+export { TextFalling } from "./text/text-falling"
 /**
  * Lists
  */
 export { ListAnimated } from "./list/list-animated"
 /**
+ * Separator
+ */
+export { Separator } from "./separator/separator"
+/**
  * Backgrounds
  */
 export { BackgroundFlickeringGrid } from "./backgrounds/background-grid-flickering"
 export { BackgroundInteractiveGridPattern } from "./backgrounds/background-interactive-grid-pattern"
+export { BackgroundLetterGlitch } from "./backgrounds/background-letter-glitch"
+export { BackgroundThreads } from "./backgrounds/background-threads"
+export { BackgroundWarp } from "./backgrounds/background-warp"
+export { BackgroundRetroGrid } from "./backgrounds/background-retro-grid"
+export { BackgroundDotPattern } from "./backgrounds/background-dot-pattern"
+export { BackgroundRipple } from "./backgrounds/background-ripple"
 /**
  * Marquees
  */
