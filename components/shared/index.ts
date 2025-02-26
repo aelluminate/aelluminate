@@ -20,6 +20,13 @@ export { ButtonInteractiveHover } from "./button/button-interactive-hover"
  */
 export { Calendar } from "./calendar/calendar"
 /**
+ * Avatars
+ */
+export { Avatar } from "./avatar/avatar"
+export { AvatarImage } from "./avatar/avatar-image"
+export { AvatarFallback } from "./avatar/avatar-fallback"
+export { AvatarGroup } from "./avatar/avatar-group"
+/**
  * Texts
  */
 export { TextAnimatedGradient } from "./text/text-animated-gradient"
@@ -30,6 +37,7 @@ export { TextFalling } from "./text/text-falling"
  * Lists
  */
 export { ListAnimated } from "./list/list-animated"
+export { ListAnimatedItem } from "./list/list-animated-item"
 /**
  * Separator
  */
@@ -37,14 +45,14 @@ export { Separator } from "./separator/separator"
 /**
  * Backgrounds
  */
-export { BackgroundFlickeringGrid } from "./backgrounds/background-grid-flickering"
-export { BackgroundInteractiveGridPattern } from "./backgrounds/background-interactive-grid-pattern"
-export { BackgroundLetterGlitch } from "./backgrounds/background-letter-glitch"
-export { BackgroundThreads } from "./backgrounds/background-threads"
-export { BackgroundWarp } from "./backgrounds/background-warp"
-export { BackgroundRetroGrid } from "./backgrounds/background-retro-grid"
-export { BackgroundDotPattern } from "./backgrounds/background-dot-pattern"
-export { BackgroundRipple } from "./backgrounds/background-ripple"
+export { BackgroundFlickeringGrid } from "./background/background-grid-flickering"
+export { BackgroundInteractiveGridPattern } from "./background/background-interactive-grid-pattern"
+export { BackgroundLetterGlitch } from "./background/background-letter-glitch"
+export { BackgroundThreads } from "./background/background-threads"
+export { BackgroundWarp } from "./background/background-warp"
+export { BackgroundRetroGrid } from "./background/background-retro-grid"
+export { BackgroundDotPattern } from "./background/background-dot-pattern"
+export { BackgroundRipple } from "./background/background-ripple"
 /**
  * Marquees
  */
@@ -62,3 +70,7 @@ export { BeamAnimated } from "./beam/beam-animated"
  * Globe
  */
 export { Globe } from "./globe/globe"
+/**
+ * Icons
+ */
+export { IconDynamic } from "./icons/icon-dynamic"
