@@ -30,8 +30,8 @@ export default function Home() {
           <TextFalling
             text={`Stop patching problem, start building solutions.`}
             highlightWords={["problem"]}
-            trigger="click"
-            gravity={1}
+            trigger="auto"
+            gravity={2}
             mouseConstraintStiffness={0.1}
             wireframes={false}
           />
