@@ -42,6 +42,8 @@ export { ListAnimatedItem } from "./list/list-animated-item"
  * Separator
  */
 export { Separator } from "./separator/separator"
+export { SeparatorSectionBorder } from "./separator/separator-section-border"
+export { SeparatorSectionText } from "./separator/separator-section-text"
 /**
  * Backgrounds
  */
@@ -53,6 +55,7 @@ export { BackgroundWarp } from "./background/background-warp"
 export { BackgroundRetroGrid } from "./background/background-retro-grid"
 export { BackgroundDotPattern } from "./background/background-dot-pattern"
 export { BackgroundRipple } from "./background/background-ripple"
+export { BackgroundIcons } from "./background/background-icons"
 /**
  * Marquees
  */
@@ -74,3 +77,7 @@ export { Globe } from "./globe/globe"
  * Icons
  */
 export { IconDynamic } from "./icons/icon-dynamic"
+/**
+ * Shadow
+ */
+export { Shadow } from "./shadow/shadow"

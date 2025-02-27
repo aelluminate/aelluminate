@@ -16,6 +16,7 @@ export const AvatarImage = React.forwardRef<
       className,
     )}
     {...props}
+    loading="lazy"
   />
 ))
 AvatarImage.displayName = AvatarPrimitive.Image.displayName

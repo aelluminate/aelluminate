@@ -2,6 +2,7 @@
 
 import * as React from "react"
 import Matter from "matter-js"
+import { cn } from "@/lib/utils" // Import the cn function
 
 interface TextFallingProps {
   text?: string
@@ -12,6 +13,7 @@ interface TextFallingProps {
   gravity?: number
   mouseConstraintStiffness?: number
   fontSize?: string
+  className?: string; // Add className to props interface
 }
 
 export const TextFalling: React.FC<TextFallingProps> = ({
@@ -22,6 +24,7 @@ export const TextFalling: React.FC<TextFallingProps> = ({
   wireframes = false,
   gravity = 1,
   mouseConstraintStiffness = 0.2,
+  className, // Destructure className from props
 }) => {
   const containerRef = React.useRef<HTMLDivElement | null>(null)
   const textRef = React.useRef<HTMLDivElement | null>(null)
@@ -37,7 +40,12 @@ export const TextFalling: React.FC<TextFallingProps> = ({
       .map((word) => {
         const isHighlighted = highlightWords.some((hw) => word.startsWith(hw))
         return `<span
-          class="inline-block mx-[2px] select-none ${isHighlighted ? "text-secondary" : ""}"
+          class="${cn(
+            "inline-block",
+            "mx-[2px]",
+            "select-none",
+            isHighlighted ? "text-secondary" : ""
+          )}"
         >
           ${word}
         </span>`
@@ -219,7 +227,10 @@ export const TextFalling: React.FC<TextFallingProps> = ({
   return (
     <div
       ref={containerRef}
-      className="relative z-20 h-full w-full max-w-3xl cursor-pointer overflow-hidden font-lora text-6xl"
+      className={cn(
+        "relative z-20 h-full w-full overflow-hidden ",
+        className
+      )}
       onClick={trigger === "click" ? handleTrigger : undefined}
       onMouseOver={trigger === "hover" ? handleTrigger : undefined}
     >

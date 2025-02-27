@@ -24,17 +24,17 @@ export const buttonVariants = cva(
   {
     variants: {
       variant: {
-        default: "bg-primary text-primary-foreground shadow hover:bg-primary/90",
-        destructive: "bg-destructive text-destructive-foreground shadow-sm hover:bg-destructive/90",
-        outline: "border border-primary-foreground/10 bg-primary-foreground/10 shadow-sm",
-        secondary: "bg-secondary text-secondary-foreground shadow-sm hover:bg-secondary/80",
+        default: "bg-primary text-primary-foreground hover:bg-primary/90",
+        destructive: "bg-destructive text-destructive-foreground hover:bg-destructive/90",
+        outline: "border border-primary-foreground/10 bg-primary-foreground/10 ",
+        secondary: "bg-secondary text-secondary-foreground hover:bg-secondary/80",
         ghost: "hover:bg-accent hover:text-accent-foreground",
-        link: "text-primary underline-offset-4 hover:underline",
+        link: "text-tertiary underline-offset-4 underline",
       },
       size: {
         default: "h-9 px-4 py-2",
         sm: "h-8 rounded-sm px-4 text-xs",
-        md: "h-8 rounded-sm px-4 text-sm",
+        md: "h-8 rounded-sm px-4 text-xs",
         lg: "h-10 rounded-sm px-8",
         icon: "h-9 w-9",
       },
