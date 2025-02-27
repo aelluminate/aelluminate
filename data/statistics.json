@@ -1,0 +1,20 @@
+[
+    {
+      "value": 3,
+      "title": "Businesses",
+      "subtitle": "Assisted and empowered"
+    },
+    {
+      "value": 10,
+      "title": "Projects",
+      "subtitle": "Successfully implemented"
+    },
+    {
+      "value": 20,
+      "title": "Cats and counting",
+      "subtitle": "Happily served and fed",
+       "icon": "paw-prints",
+      "cta": "Learn more",
+      "href": "/cats"
+    }
+]
