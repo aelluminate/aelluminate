@@ -1,4 +1,5 @@
 import * as React from "react"
+import Link from "next/link"
 
 import { Button } from "@/components/shared"
 import { NotificationList } from "@/components/ui/notification-list"
@@ -17,10 +18,12 @@ export function SectionHero() {
         </span>
         <div className="mt-auto flex flex-row items-center gap-2">
           <Button size="md" variant="outline">
-            Learn more
+            <Link href="/projects">Explore</Link>
           </Button>
           <Button size="md" variant="secondary">
-            Talk to us
+            <Link href={`https://calendar.app.google/rjRxmjGvqNfEqBc99`} target="_blank">
+              Talk to us
+            </Link>
           </Button>
         </div>
       </div>

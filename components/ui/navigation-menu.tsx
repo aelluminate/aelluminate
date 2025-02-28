@@ -2,7 +2,7 @@
 
 import * as React from "react"
 import Image from "next/image"
-import { BadgeInfo, Users, Laptop } from "lucide-react"
+import { BadgeInfo, Users, Laptop, Blocks } from "lucide-react"
 
 import { navigationMenuTriggerStyle } from "@/components/utils/styles"
 import {
@@ -65,6 +65,9 @@ export function NavMenu() {
               </NavMenuListItem>
               <NavMenuListItem href="/careers" title="Careers" icon={Laptop}>
                 Join the team and help us build the future
+              </NavMenuListItem>
+              <NavMenuListItem href="/projects" title="Projects" icon={Blocks}>
+                Discover the projects we&apos;re working on.
               </NavMenuListItem>
             </ul>
           </NavigationMenuContent>

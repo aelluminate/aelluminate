@@ -3,7 +3,6 @@ import Link from "next/link"
 
 import { TextNumberTicker, BackgroundIcons, Button } from "@/components/shared"
 
-// Import the local JSON data
 import statistics from "@/data/statistics.json"
 
 export function SectionStatistics() {
@@ -29,7 +28,9 @@ export function SectionStatistics() {
           </div>
           {item.cta && item.href && (
             <Button variant="link" asChild size="md" className="z-10 cursor-pointer">
-              <Link href={item.href}>{item.cta}</Link>
+              <Link href={item.href} prefetch>
+                {item.cta}
+              </Link>
             </Button>
           )}
         </div>

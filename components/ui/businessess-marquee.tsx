@@ -1,5 +1,4 @@
 import Link from "next/link"
-import { ArrowUpRight } from "lucide-react"
 
 export const BusinessesMarquee = ({ name, href }: { name: string; href: string }) => {
   return (

@@ -2,7 +2,7 @@ import Link from "next/link"
 
 export const Footer = () => {
   return (
-    <div className="mx-auto flex w-full max-w-6xl flex-col">
+    <div className="mx-auto mt-auto flex w-full max-w-6xl flex-col">
       <footer>
         <div className="mx-auto max-w-screen-xl">
           <div className="flex w-full flex-col items-center justify-between gap-4 px-4 py-8 text-sm text-tertiary/75 lg:flex-row lg:gap-0 lg:px-0">
@@ -15,11 +15,6 @@ export const Footer = () => {
               </Link>
             </div>
             <span>&copy; {new Date().getFullYear()} All rights reserved.</span>
-          </div>
-        </div>
-        <div className="max-auto max-w-screen-xl">
-          <div className="flex w-full items-center justify-center text-sm text-tertiary/75">
-            To God be the Glory.
           </div>
         </div>
         <div className="overflow-hidden">

@@ -11,6 +11,10 @@ export { NavigationMenuIndicator } from "./nav-menu/nav-menu-indicator"
 export { NavigationMenuViewport } from "./nav-menu/nav-menu-viewport"
 export { NavMenuListItem } from "./nav-menu/nav-menu-list-item"
 /**
+ * Badge
+ */
+export { Badge } from "./badge/badge"
+/**
  * Buttons
  */
 export { Button } from "./button/button"
@@ -81,3 +85,36 @@ export { IconDynamic } from "./icons/icon-dynamic"
  * Shadow
  */
 export { Shadow } from "./shadow/shadow"
+/**
+ * Dialog
+ */
+export { Dialog } from "./dialog/dialog"
+export { DialogPortal } from "./dialog/dialog-portal"
+export { DialogOverlay } from "./dialog/dialog-overlay"
+export { DialogTrigger } from "./dialog/dialog-trigger"
+export { DialogClose } from "./dialog/dialog-close"
+export { DialogContent } from "./dialog/dialog-content"
+export { DialogHeader } from "./dialog/dialog-header"
+export { DialogFooter } from "./dialog/dialog-footer"
+export { DialogTitle } from "./dialog/dialog-title"
+export { DialogDescription } from "./dialog/dialog-description"
+/**
+ * Accordion
+ */
+export { Accordion } from "./accordion/accordion"
+export { AccordionItem } from "./accordion/accordion-item"
+export { AccordionTrigger } from "./accordion/accordion-trigger"
+export { AccordionContent } from "./accordion/accordion-content"
+/**
+ * Sheet
+ */
+export { Sheet } from "./sheet/sheet"
+export { SheetPortal } from "./sheet/sheet-portal"
+export { SheetOverlay } from "./sheet/sheet-overlay"
+export { SheetTrigger } from "./sheet/sheet-trigger"
+export { SheetClose } from "./sheet/sheet-close"
+export { SheetContent } from "./sheet/sheet-content"
+export { SheetHeader } from "./sheet/sheet-header"
+export { SheetFooter } from "./sheet/sheet-footer"
+export { SheetTitle } from "./sheet/sheet-title"
+export { SheetDescription } from "./sheet/sheet-description"
