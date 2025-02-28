@@ -16,7 +16,7 @@ const features = [
     href: "/",
     cta: "Explore",
     className:
-      "lg:row-start-1 lg:row-end-4 lg:col-start-2 lg:col-end-3 border-x border-tertiary/10",
+      "lg:row-start-1 lg:row-end-4 lg:col-start-2 lg:col-end-3 border-b lg:border-x border-tertiary/10",
     background: (
       <div className="absolute z-0 h-full w-full overflow-hidden border-none opacity-50 transition-all duration-300 ease-out">
         <BackgroundLetterGlitch
@@ -51,7 +51,8 @@ const features = [
       "Expand your horizons with solutions designed for a global audience. Language is no barrier to building impactful, universally accessible applications.",
     href: "/",
     cta: "Explore",
-    className: "lg:col-start-1 lg:col-end-2 lg:row-start-3 lg:row-end-4",
+    className:
+      "lg:col-start-1 lg:col-end-2 lg:row-start-3 lg:row-end-4 border-tertiary/10 lg:border-none border-b",
     background: (
       <div className="absolute z-0 h-full w-full overflow-hidden border-none transition-all duration-300 ease-out">
         <Globe />

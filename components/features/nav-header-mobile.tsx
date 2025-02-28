@@ -63,7 +63,7 @@ export function NavHeaderMobile() {
                       />
                     </Link>
                     <div className="flex flex-col items-start">
-                      <h1 className="text-xl">Aelluminate</h1>
+                      <h1 className="text-xl text-tertiary">Aelluminate</h1>
                     </div>
                   </div>
                 </SheetTitle>
