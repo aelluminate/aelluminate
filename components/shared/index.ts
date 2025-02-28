@@ -118,3 +118,8 @@ export { SheetHeader } from "./sheet/sheet-header"
 export { SheetFooter } from "./sheet/sheet-footer"
 export { SheetTitle } from "./sheet/sheet-title"
 export { SheetDescription } from "./sheet/sheet-description"
+/**
+ * Scroll Area
+ */
+export { ScrollArea } from "./scroll-area/scroll-area"
+export { ScrollBar } from "./scroll-area/scroll-bar"
