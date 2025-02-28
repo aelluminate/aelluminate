@@ -1,12 +1,19 @@
 import * as React from "react"
+import * as SheetPrimitive from "@radix-ui/react-dialog"
 
 import { LucideIcon, LucideProps } from "lucide-react"
 import dynamicIconImports from "lucide-react/dynamicIconImports"
 import { type VariantProps } from "class-variance-authority"
 
-import { badgeVariants, buttonVariants } from "@/components/utils/variants"
+import { badgeVariants, buttonVariants, sheetVariants } from "@/components/utils/variants"
 import { Avatar } from "@/components/shared"
 
+/**
+ * Sheet
+ */
+export interface ISheetContentProps
+  extends React.ComponentPropsWithoutRef<typeof SheetPrimitive.Content>,
+    VariantProps<typeof sheetVariants> {}
 /**
  * Navigation Menu
  */
