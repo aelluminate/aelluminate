@@ -2,7 +2,7 @@
 
 We're a small but mighty team building awesome stuff with tech and turn "what ifs" into "here it is!" 
 
-![Site Preview](/.docs/img/preview.png)
+![Site Preview](/.docs/img/site-preview.png)
 
 
 <div align="center">
