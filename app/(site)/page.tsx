@@ -1,7 +1,5 @@
 import {
-  BackgroundFlickeringGrid,
   Marquee,
-  TextNumberTicker,
   BackgroundRipple,
   Button,
   SeparatorSectionBorder,
