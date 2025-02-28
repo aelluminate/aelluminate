@@ -2,9 +2,8 @@
 
 import * as React from "react"
 import Image from "next/image"
-import { BadgeInfo, Users, Laptop, Blocks } from "lucide-react"
+import { BadgeInfo, Users, Laptop, Blocks, Rss } from "lucide-react"
 
-import { navigationMenuTriggerStyle } from "@/components/utils/styles"
 import {
   NavigationMenu,
   NavigationMenuContent,
@@ -69,13 +68,11 @@ export function NavMenu() {
               <NavMenuListItem href="/projects" title="Projects" icon={Blocks}>
                 Discover the projects we&apos;re working on.
               </NavMenuListItem>
+              <NavMenuListItem href="/blogs" title="Blogs" icon={Rss}>
+                Read the latest articles and updates.
+              </NavMenuListItem>
             </ul>
           </NavigationMenuContent>
-        </NavigationMenuItem>
-        <NavigationMenuItem>
-          <NavigationMenuLink asChild href="/docs">
-            <div className={navigationMenuTriggerStyle()}>Blog</div>
-          </NavigationMenuLink>
         </NavigationMenuItem>
       </NavigationMenuList>
     </NavigationMenu>

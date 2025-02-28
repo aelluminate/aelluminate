@@ -194,9 +194,7 @@ export function NavHeaderMobile() {
                           <Rss className="h-4 w-4" />
                           <span>Blogs</span>
                         </div>
-                        <div className="text-xs">
-                          Read our latest blogs and stay updated with our latest news.
-                        </div>
+                        <div className="text-xs">Read the latest articles and updates.</div>
                       </Link>
                     </ul>
                   </div>
