@@ -9,7 +9,7 @@ export function SectionHero() {
     <>
       <div className="flex w-full flex-col items-center gap-4 text-center lg:items-start lg:text-left">
         <div className="font-lora text-4xl lg:text-6xl">
-          Stop <span className="text-secondary">patching</span> problem, start{" "}
+          Stop <span className="text-secondary">patching</span> problems, start{" "}
           <span className="text-secondary">building</span> solutions.
         </div>
         <span className="max-w-lg text-sm text-tertiary/75 lg:text-base">
